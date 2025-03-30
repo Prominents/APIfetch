@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon API Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon API Explorer</h1>
+        <div class="api-selector">
+            <button class="api-btn active" data-api="berry">Berries</button>
+            <button class="api-btn" data-api="pokemon">Pokémon</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+        <div id="data-list" class="data-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
